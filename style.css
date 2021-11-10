@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 541px){
+    .nav-containar{
+        background-color: aliceblue;
+    }
+    .nav-content ul{
+        list-style: none;
+        text-align: end;
+        padding: 8px;
+    }
+    .nav-content ul li{
+        display: block;
+        padding: 3px;
+        background-color: rgb(112, 135, 139);
+        margin: 3px 33px;
+        border-radius: 8px;
+        text-align: center;
+        transition: .6s;
+    }
+    .nav-content ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+    }
+    .nav-content ul li:hover{
+        text-decoration: none;
+        background-color: rgb(215, 238, 238);
+        color: white;
+    }
+    .header-photo{
+        background-image: url(programmpic.jpeg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100vw 70vh;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .web-title{
+        background-color: rgb(163, 238, 232);
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-align: center;
+        transition: 0.6s;
+    }
+    .web-title:hover{
+        background-color: rgb(163, 238, 232);
+        padding: 19px;
+        font-size: 1.12rem;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 6px 5px 14px rgb(255, 255, 255);
+        transition: 0.6s;
+    }
+    .clear-div{
+        clear: both;
+        content: "";
+    }
+    .main-containar{
+        margin: 9px;
+    }
+    .main-content{
+        width: 90%;
+        margin: auto;
+    }
+    .card-content{
+        width: 100%;
+        float: left;
+        margin: 4px;
+        border: 1px solid slategray;
+        box-shadow: 2px 3px 2px slategray;
+        transition: 0.6s;
+    }
+    .card-content:hover{
+        border: 1px solid slategray;
+        box-shadow: 2px 3px 2px rgb(255, 255, 255);
+    }
+    
+    .card-content img{
+        height: 188px;
+        width: 100%;
+        padding: 11px;
+    }
+    .card-describ{
+        text-align: justify;
+        padding: 3px;
+    }
+    h3{
+        text-align: center;
+    }
+    .footer-containar{
+        background-color: aliceblue;
+    }
+}
+
+
+@media screen and (min-width: 541px){
+    .nav-containar{
+        background-color: aliceblue;
+    }
+    .nav-content ul{
+        list-style: none;
+        text-align: end;
+        padding: 8px;
+    }
+    .nav-content ul li{
+        display: inline;
+        padding: 3px;
+    }
+    .nav-content ul li a{
+        text-decoration: none;
+        color: rgb(36, 131, 95);
+        transition: .6s;
+    }
+    .nav-content ul li a:hover{
+        text-decoration: none;
+        background-color: gray;
+        padding: 4px;
+        border-radius: 8px;
+        color: white;
+    }
+    .header-photo{
+        background-image: url(programmpic.jpeg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .web-title{
+        background-color: rgb(163, 238, 232);
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-align: center;
+        transition: 0.6s;
+    }
+    .web-title:hover{
+        background-color: rgb(163, 238, 232);
+        padding: 19px;
+        font-size: 1.12rem;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 6px 5px 14px rgb(255, 255, 255);
+        transition: 0.6s;
+    }
+    .clear-div{
+        clear: both;
+        content: "";
+    }
+    .main-containar{
+        margin: 9px;
+    }
+    .main-content{
+        width: 90%;
+        margin: auto;
+    }
+    .card-content{
+        width: 30%;
+        float: left;
+        margin: 7px;
+        border: 1px solid slategray;
+        box-shadow: 2px 3px 2px slategray;
+        transition: 0.6s;
+    }
+    .card-content:hover{
+        border: 1px solid slategray;
+        box-shadow: 2px 3px 2px rgb(255, 255, 255);
+    }
+    
+    .card-content img{
+        height: 188px;
+        width: 100%;
+        padding: 11px;
+    }
+    .card-describ{
+        text-align: justify;
+        padding: 3px;
+    }
+    h3{
+        text-align: center;
+    }
+    .footer-containar{
+        background-color: aliceblue;
+    }
+}
